@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+}
+.logo,
+.search,
+.icon {
+  flex: 1;
+}
+main {
+  height: calc(1000vh-70px);
+  display: flex;
+  background-color: #f9f9f9;
+}
+.side-bar {
+  height: 100%;
+  width: 17%;
+  background-color: #ddd;
+  overflow-y: hidden;
+}
+
+#sidebar {
+  min-width: 200px;
+}
+
+.logo {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: auto;
+}
+.logo img {
+  width: 130px;
+}
+
+.logo .glyphicon {
+  font-size: 24px;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search form {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+}
+
+.search input {
+  width: 600px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  flex: 1;
+}
+
+.search button {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+loly {
+  margin-left: 10px;
+}
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
+.icon span {
+  padding: 30px;
+  font-size: 20px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-link .glyphicon {
+  margin-right: 10px;
+}
+.sidebar {
+  font-size: 50px;
+  max-width: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 10px 15px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #f0f0f0;
+}
+
+hr {
+  height: 1px;
+  background-color: #e5e5e5;
+  border: non;
+}
+.content {
+  flex: 1;
+  padding: 15px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav {
+  background: #fff;
+  color: black;
+  display: flex;
+}
+.topnav li {
+  padding: 10px;
+}
+.isi {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  font-size: 20px;
+}
+.isi .row {
+  display: flex;
+  align-items: stretch;
+}
